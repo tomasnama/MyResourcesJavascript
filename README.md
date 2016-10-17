@@ -1,0 +1,2 @@
+# MyResourcesJavascript
+My Resources javascript
