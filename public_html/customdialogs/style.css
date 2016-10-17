@@ -1,0 +1,72 @@
+.customDialog {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.customDialogContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -125px;
+    padding: 0 0 0 0;
+    background-color: #fefefe;
+    width: 250px;
+    border-radius: 10px;
+    font-family: WurthBook;
+}
+
+.customDialogHeader {
+    width: 100%;
+    margin: 0 0;
+    padding: 5px 5px;
+    text-align: center;
+    font-family: WurthBook;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.customDialogBody {
+    width: 100%;
+    margin: 0 0;
+    padding: 5px 5px;
+    text-align: center;
+    padding: 5px 5px 15px 5px;
+    font-size: 14px;
+}
+
+.customDialogFooter {
+    width: 100%;
+    float:left;
+    margin: 0 0;
+    padding: 0 0;
+    border-top: #D3D3D3;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+.customDialogButton {
+    background-color: #FFFFFF; 
+    float:left;
+    width: 50%;
+    margin: 0px 0px;
+    padding: 10px 5px;
+    border:none; 
+    font: inherit;
+    cursor: pointer;
+    color: #007aff;
+    height: 100%;
+    width: 100%;
+}
+
+
+.customDialogButton:active {
+    background-color: #eae8e6; 
+}

@@ -1,2 +1,3 @@
-# MyResourcesJavascript
-My Resources javascript
+# My Resources javascript
+* Custom modal dialogs
+    * /customdialogs
