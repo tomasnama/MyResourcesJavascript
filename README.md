@@ -1,3 +1,3 @@
 # My Resources javascript
 * Custom modal dialogs
-    * /customdialogs
+    * /public_html/customdialogs
